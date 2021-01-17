@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <div className="App__page">
               <Sidebar />
               <RecommendedVideos />
